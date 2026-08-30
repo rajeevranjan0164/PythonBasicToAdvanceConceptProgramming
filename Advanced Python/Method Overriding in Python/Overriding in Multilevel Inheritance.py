@@ -1,0 +1,14 @@
+class Vehicle:
+    def start(self):
+        print("Vehicle started")
+
+class Car(Vehicle):
+    def start(self):
+        print("Car started")
+
+class SportsCar(Car):
+    def start(self):
+        print("Sports Car started")
+
+obj = SportsCar()
+obj.start()
